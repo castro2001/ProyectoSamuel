@@ -1,0 +1,149 @@
+.contenedor__1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff;
+ 
+}
+.articulo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff;
+}
+.contenedor__2{
+    background-color:rgb(40, 112, 146);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(40, 112, 146) 4%, rgb(40, 112, 146) 97%, rgba(255,255,255,0.7189250700280112) 100%);
+    height: 125vh;
+}
+
+
+.imagen__1{
+    width: 500px;
+    height:500px;
+    float: left;
+    
+    margin-top: auto;
+
+}
+
+.titulo{
+    margin-left: 250px;
+    font-size: 48px;
+}
+
+
+
+.card-container {
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20rem;
+  }
+  
+  .card {
+    width: 300px;
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    margin-left: 150px;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h2{
+    padding: 10px;
+    font-size: 32px;
+    margin-left: 25px;
+  }
+  .card .titulo__Card{
+    margin-left: 70px;
+  }
+  .card p {
+    padding: 20px;
+    font-size: 16px;
+    text-align: justify ;
+  }
+
+  .titulo__2{
+    padding-top: 85px;
+    margin-left: 450px;
+    font-size: 48px;
+    margin-bottom: 100px;
+    color: white;
+    
+}
+.Boton{
+    background-color: transparent;
+    color: white;
+    padding: 15px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-left: 50px;
+    
+   
+}
+.Boton a{
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #1685DB;
+    border: 1px solid #1685DB;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    
+}
+.Boton a:hover{
+    background: #1685DB ;
+    color: #fff;
+}
+
+.titulo__3{
+    padding-top: 85px;
+    margin-left: 450px;
+    font-size: 48px;
+   
+    color: black;
+}
+
+.Imagen__2{
+    width: 650px;
+    height: 550px;
+    margin-right: 20px;
+}
+.texto{
+    margin-left: 20px;
+    text-align: justify;
+    width: 550px;
+}
+
+.titulo__p{
+    font-size: 40px;
+    margin-left: 120px;
+    width: 75%;
+}
+
